@@ -11,15 +11,11 @@
     tools:context="com.example.cecyt9.examen1_aguilar_cervantes_nubia_61m7.Actividad2">
 
     <TextView
-        android:text="Nubia Aguilar Cervantes
-
-
-
-                        Resultado:"
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="74dp"
-        android:id="@+id/Res"
+        android:id="@+id/Respuesta"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -27,12 +23,13 @@
         android:text="Enviar resultado por E-mail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Res"
+        android:layout_below="@+id/Respuesta"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="53dp"
         android:layout_marginStart="53dp"
         android:layout_marginTop="124dp"
-        android:id="@+id/email" />
+        android:id="@+id/email"
+        android:onClick="onClickEnvia" />
 </RelativeLayout>
 
